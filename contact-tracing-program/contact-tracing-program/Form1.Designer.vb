@@ -71,16 +71,18 @@ Partial Class Form1
         '
         'btnEdit
         '
+        Me.btnEdit.BackColor = System.Drawing.SystemColors.HighlightText
         Me.btnEdit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnEdit.Location = New System.Drawing.Point(266, 265)
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(75, 42)
         Me.btnEdit.TabIndex = 1
         Me.btnEdit.Text = "edit"
-        Me.btnEdit.UseVisualStyleBackColor = True
+        Me.btnEdit.UseVisualStyleBackColor = False
         '
         'boxGivenName
         '
+        Me.boxGivenName.BackColor = System.Drawing.SystemColors.HighlightText
         Me.boxGivenName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.boxGivenName.Location = New System.Drawing.Point(10, 76)
         Me.boxGivenName.Name = "boxGivenName"
@@ -108,6 +110,7 @@ Partial Class Form1
         '
         'boxMiddleName
         '
+        Me.boxMiddleName.BackColor = System.Drawing.SystemColors.HighlightText
         Me.boxMiddleName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.boxMiddleName.Location = New System.Drawing.Point(138, 76)
         Me.boxMiddleName.Name = "boxMiddleName"
@@ -126,6 +129,7 @@ Partial Class Form1
         '
         'boxLastName
         '
+        Me.boxLastName.BackColor = System.Drawing.SystemColors.HighlightText
         Me.boxLastName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.boxLastName.Location = New System.Drawing.Point(266, 76)
         Me.boxLastName.Name = "boxLastName"
@@ -144,6 +148,7 @@ Partial Class Form1
         '
         'boxCourse
         '
+        Me.boxCourse.BackColor = System.Drawing.SystemColors.HighlightText
         Me.boxCourse.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.boxCourse.Location = New System.Drawing.Point(10, 125)
         Me.boxCourse.Name = "boxCourse"
@@ -162,6 +167,7 @@ Partial Class Form1
         '
         'boxStudentNo
         '
+        Me.boxStudentNo.BackColor = System.Drawing.SystemColors.HighlightText
         Me.boxStudentNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.boxStudentNo.Location = New System.Drawing.Point(138, 125)
         Me.boxStudentNo.Name = "boxStudentNo"
@@ -180,6 +186,7 @@ Partial Class Form1
         '
         'boxBirthdate
         '
+        Me.boxBirthdate.BackColor = System.Drawing.SystemColors.HighlightText
         Me.boxBirthdate.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.boxBirthdate.Location = New System.Drawing.Point(296, 125)
         Me.boxBirthdate.Name = "boxBirthdate"
@@ -198,6 +205,7 @@ Partial Class Form1
         '
         'boxEmail
         '
+        Me.boxEmail.BackColor = System.Drawing.SystemColors.HighlightText
         Me.boxEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.boxEmail.Location = New System.Drawing.Point(10, 174)
         Me.boxEmail.Name = "boxEmail"
@@ -216,6 +224,7 @@ Partial Class Form1
         '
         'boxContactNo
         '
+        Me.boxContactNo.BackColor = System.Drawing.SystemColors.HighlightText
         Me.boxContactNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.boxContactNo.Location = New System.Drawing.Point(160, 173)
         Me.boxContactNo.Name = "boxContactNo"
@@ -234,6 +243,7 @@ Partial Class Form1
         '
         'boxGender
         '
+        Me.boxGender.BackColor = System.Drawing.SystemColors.HighlightText
         Me.boxGender.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.boxGender.Location = New System.Drawing.Point(310, 173)
         Me.boxGender.Name = "boxGender"
@@ -252,6 +262,7 @@ Partial Class Form1
         '
         'boxHomeAdd
         '
+        Me.boxHomeAdd.BackColor = System.Drawing.SystemColors.HighlightText
         Me.boxHomeAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.boxHomeAdd.Location = New System.Drawing.Point(10, 220)
         Me.boxHomeAdd.Name = "boxHomeAdd"
@@ -272,6 +283,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.Info
         Me.ClientSize = New System.Drawing.Size(442, 319)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.labelGender)
@@ -297,6 +309,8 @@ Partial Class Form1
         Me.Controls.Add(Me.btnEdit)
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.titleLabel)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.Text = "Student Contact Tracing App"
         Me.ResumeLayout(False)
