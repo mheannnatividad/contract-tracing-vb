@@ -23,29 +23,29 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.titleLabel = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnSave = New System.Windows.Forms.Button()
+        Me.btnEdit = New System.Windows.Forms.Button()
+        Me.boxGivenName = New System.Windows.Forms.TextBox()
+        Me.labelGivenName = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
+        Me.boxMiddleName = New System.Windows.Forms.TextBox()
+        Me.labelMiddleName = New System.Windows.Forms.Label()
+        Me.boxLastName = New System.Windows.Forms.TextBox()
+        Me.labelLastName = New System.Windows.Forms.Label()
+        Me.boxCourse = New System.Windows.Forms.TextBox()
+        Me.labelCourse = New System.Windows.Forms.Label()
+        Me.boxStudentNo = New System.Windows.Forms.TextBox()
+        Me.labelStudentNo = New System.Windows.Forms.Label()
+        Me.boxBirthdate = New System.Windows.Forms.TextBox()
+        Me.labelBirthdate = New System.Windows.Forms.Label()
+        Me.boxEmail = New System.Windows.Forms.TextBox()
+        Me.labelEmail = New System.Windows.Forms.Label()
+        Me.boxContactNo = New System.Windows.Forms.TextBox()
+        Me.labelContactNo = New System.Windows.Forms.Label()
+        Me.boxGender = New System.Windows.Forms.TextBox()
+        Me.labelGender = New System.Windows.Forms.Label()
+        Me.boxHomeAdd = New System.Windows.Forms.TextBox()
+        Me.labelHomeAdd = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'titleLabel
@@ -58,44 +58,44 @@ Partial Class Form1
         Me.titleLabel.TabIndex = 0
         Me.titleLabel.Text = "Student Contact"
         '
-        'Button1
+        'btnSave
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(353, 265)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 42)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "save"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnSave.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnSave.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSave.Location = New System.Drawing.Point(353, 265)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(75, 42)
+        Me.btnSave.TabIndex = 1
+        Me.btnSave.Text = "save"
+        Me.btnSave.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnEdit
         '
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(266, 265)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 42)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "edit"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnEdit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEdit.Location = New System.Drawing.Point(266, 265)
+        Me.btnEdit.Name = "btnEdit"
+        Me.btnEdit.Size = New System.Drawing.Size(75, 42)
+        Me.btnEdit.TabIndex = 1
+        Me.btnEdit.Text = "edit"
+        Me.btnEdit.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'boxGivenName
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(10, 76)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(119, 23)
-        Me.TextBox1.TabIndex = 2
+        Me.boxGivenName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.boxGivenName.Location = New System.Drawing.Point(10, 76)
+        Me.boxGivenName.Name = "boxGivenName"
+        Me.boxGivenName.Size = New System.Drawing.Size(119, 23)
+        Me.boxGivenName.TabIndex = 2
         '
-        'Label1
+        'labelGivenName
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(7, 56)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(101, 17)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Given Name:"
+        Me.labelGivenName.AutoSize = True
+        Me.labelGivenName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelGivenName.Location = New System.Drawing.Point(7, 56)
+        Me.labelGivenName.Name = "labelGivenName"
+        Me.labelGivenName.Size = New System.Drawing.Size(101, 17)
+        Me.labelGivenName.TabIndex = 3
+        Me.labelGivenName.Text = "Given Name:"
         '
         'Panel1
         '
@@ -106,167 +106,167 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(442, 10)
         Me.Panel1.TabIndex = 4
         '
-        'TextBox2
+        'boxMiddleName
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(138, 76)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(119, 23)
-        Me.TextBox2.TabIndex = 2
+        Me.boxMiddleName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.boxMiddleName.Location = New System.Drawing.Point(138, 76)
+        Me.boxMiddleName.Name = "boxMiddleName"
+        Me.boxMiddleName.Size = New System.Drawing.Size(119, 23)
+        Me.boxMiddleName.TabIndex = 2
         '
-        'Label2
+        'labelMiddleName
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(135, 56)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(106, 17)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Middle Name:"
+        Me.labelMiddleName.AutoSize = True
+        Me.labelMiddleName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelMiddleName.Location = New System.Drawing.Point(135, 56)
+        Me.labelMiddleName.Name = "labelMiddleName"
+        Me.labelMiddleName.Size = New System.Drawing.Size(106, 17)
+        Me.labelMiddleName.TabIndex = 3
+        Me.labelMiddleName.Text = "Middle Name:"
         '
-        'TextBox3
+        'boxLastName
         '
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(266, 76)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(119, 23)
-        Me.TextBox3.TabIndex = 2
+        Me.boxLastName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.boxLastName.Location = New System.Drawing.Point(266, 76)
+        Me.boxLastName.Name = "boxLastName"
+        Me.boxLastName.Size = New System.Drawing.Size(119, 23)
+        Me.boxLastName.TabIndex = 2
         '
-        'Label3
+        'labelLastName
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(263, 56)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(90, 17)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Last Name:"
+        Me.labelLastName.AutoSize = True
+        Me.labelLastName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelLastName.Location = New System.Drawing.Point(263, 56)
+        Me.labelLastName.Name = "labelLastName"
+        Me.labelLastName.Size = New System.Drawing.Size(90, 17)
+        Me.labelLastName.TabIndex = 3
+        Me.labelLastName.Text = "Last Name:"
         '
-        'TextBox4
+        'boxCourse
         '
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(10, 125)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(119, 23)
-        Me.TextBox4.TabIndex = 2
+        Me.boxCourse.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.boxCourse.Location = New System.Drawing.Point(10, 125)
+        Me.boxCourse.Name = "boxCourse"
+        Me.boxCourse.Size = New System.Drawing.Size(119, 23)
+        Me.boxCourse.TabIndex = 2
         '
-        'Label4
+        'labelCourse
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(7, 105)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(103, 17)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Course/Year:"
+        Me.labelCourse.AutoSize = True
+        Me.labelCourse.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelCourse.Location = New System.Drawing.Point(7, 105)
+        Me.labelCourse.Name = "labelCourse"
+        Me.labelCourse.Size = New System.Drawing.Size(103, 17)
+        Me.labelCourse.TabIndex = 3
+        Me.labelCourse.Text = "Course/Year:"
         '
-        'TextBox5
+        'boxStudentNo
         '
-        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(138, 125)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(147, 23)
-        Me.TextBox5.TabIndex = 2
+        Me.boxStudentNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.boxStudentNo.Location = New System.Drawing.Point(138, 125)
+        Me.boxStudentNo.Name = "boxStudentNo"
+        Me.boxStudentNo.Size = New System.Drawing.Size(147, 23)
+        Me.boxStudentNo.TabIndex = 2
         '
-        'Label5
+        'labelStudentNo
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(135, 105)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(130, 17)
-        Me.Label5.TabIndex = 3
-        Me.Label5.Text = "Student Number:"
+        Me.labelStudentNo.AutoSize = True
+        Me.labelStudentNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelStudentNo.Location = New System.Drawing.Point(135, 105)
+        Me.labelStudentNo.Name = "labelStudentNo"
+        Me.labelStudentNo.Size = New System.Drawing.Size(130, 17)
+        Me.labelStudentNo.TabIndex = 3
+        Me.labelStudentNo.Text = "Student Number:"
         '
-        'TextBox6
+        'boxBirthdate
         '
-        Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(296, 125)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(132, 23)
-        Me.TextBox6.TabIndex = 2
+        Me.boxBirthdate.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.boxBirthdate.Location = New System.Drawing.Point(296, 125)
+        Me.boxBirthdate.Name = "boxBirthdate"
+        Me.boxBirthdate.Size = New System.Drawing.Size(132, 23)
+        Me.boxBirthdate.TabIndex = 2
         '
-        'Label6
+        'labelBirthdate
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(293, 105)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(135, 17)
-        Me.Label6.TabIndex = 3
-        Me.Label6.Text = "Birthdate (m/d/y):"
+        Me.labelBirthdate.AutoSize = True
+        Me.labelBirthdate.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelBirthdate.Location = New System.Drawing.Point(293, 105)
+        Me.labelBirthdate.Name = "labelBirthdate"
+        Me.labelBirthdate.Size = New System.Drawing.Size(135, 17)
+        Me.labelBirthdate.TabIndex = 3
+        Me.labelBirthdate.Text = "Birthdate (m/d/y):"
         '
-        'TextBox7
+        'boxEmail
         '
-        Me.TextBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(10, 174)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(141, 23)
-        Me.TextBox7.TabIndex = 2
+        Me.boxEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.boxEmail.Location = New System.Drawing.Point(10, 174)
+        Me.boxEmail.Name = "boxEmail"
+        Me.boxEmail.Size = New System.Drawing.Size(141, 23)
+        Me.boxEmail.TabIndex = 2
         '
-        'Label7
+        'labelEmail
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(7, 154)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(52, 17)
-        Me.Label7.TabIndex = 3
-        Me.Label7.Text = "Email:"
+        Me.labelEmail.AutoSize = True
+        Me.labelEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelEmail.Location = New System.Drawing.Point(7, 154)
+        Me.labelEmail.Name = "labelEmail"
+        Me.labelEmail.Size = New System.Drawing.Size(52, 17)
+        Me.labelEmail.TabIndex = 3
+        Me.labelEmail.Text = "Email:"
         '
-        'TextBox8
+        'boxContactNo
         '
-        Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(160, 173)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(141, 23)
-        Me.TextBox8.TabIndex = 2
+        Me.boxContactNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.boxContactNo.Location = New System.Drawing.Point(160, 173)
+        Me.boxContactNo.Name = "boxContactNo"
+        Me.boxContactNo.Size = New System.Drawing.Size(141, 23)
+        Me.boxContactNo.TabIndex = 2
         '
-        'Label8
+        'labelContactNo
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(157, 153)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(129, 17)
-        Me.Label8.TabIndex = 3
-        Me.Label8.Text = "Contact Number:"
+        Me.labelContactNo.AutoSize = True
+        Me.labelContactNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelContactNo.Location = New System.Drawing.Point(157, 153)
+        Me.labelContactNo.Name = "labelContactNo"
+        Me.labelContactNo.Size = New System.Drawing.Size(129, 17)
+        Me.labelContactNo.TabIndex = 3
+        Me.labelContactNo.Text = "Contact Number:"
         '
-        'TextBox9
+        'boxGender
         '
-        Me.TextBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.Location = New System.Drawing.Point(310, 173)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(75, 23)
-        Me.TextBox9.TabIndex = 2
+        Me.boxGender.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.boxGender.Location = New System.Drawing.Point(310, 173)
+        Me.boxGender.Name = "boxGender"
+        Me.boxGender.Size = New System.Drawing.Size(75, 23)
+        Me.boxGender.TabIndex = 2
         '
-        'Label9
+        'labelGender
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(307, 153)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(67, 17)
-        Me.Label9.TabIndex = 3
-        Me.Label9.Text = "Gender:"
+        Me.labelGender.AutoSize = True
+        Me.labelGender.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelGender.Location = New System.Drawing.Point(307, 153)
+        Me.labelGender.Name = "labelGender"
+        Me.labelGender.Size = New System.Drawing.Size(67, 17)
+        Me.labelGender.TabIndex = 3
+        Me.labelGender.Text = "Gender:"
         '
-        'TextBox10
+        'boxHomeAdd
         '
-        Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox10.Location = New System.Drawing.Point(10, 220)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(418, 23)
-        Me.TextBox10.TabIndex = 2
+        Me.boxHomeAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.boxHomeAdd.Location = New System.Drawing.Point(10, 220)
+        Me.boxHomeAdd.Name = "boxHomeAdd"
+        Me.boxHomeAdd.Size = New System.Drawing.Size(418, 23)
+        Me.boxHomeAdd.TabIndex = 2
         '
-        'Label10
+        'labelHomeAdd
         '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(7, 200)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(118, 17)
-        Me.Label10.TabIndex = 3
-        Me.Label10.Text = "Home Address:"
+        Me.labelHomeAdd.AutoSize = True
+        Me.labelHomeAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labelHomeAdd.Location = New System.Drawing.Point(7, 200)
+        Me.labelHomeAdd.Name = "labelHomeAdd"
+        Me.labelHomeAdd.Size = New System.Drawing.Size(118, 17)
+        Me.labelHomeAdd.TabIndex = 3
+        Me.labelHomeAdd.Text = "Home Address:"
         '
         'Form1
         '
@@ -274,28 +274,28 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(442, 319)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.TextBox9)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.TextBox10)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.labelGender)
+        Me.Controls.Add(Me.boxGender)
+        Me.Controls.Add(Me.labelBirthdate)
+        Me.Controls.Add(Me.boxBirthdate)
+        Me.Controls.Add(Me.labelLastName)
+        Me.Controls.Add(Me.boxLastName)
+        Me.Controls.Add(Me.labelMiddleName)
+        Me.Controls.Add(Me.boxMiddleName)
+        Me.Controls.Add(Me.labelStudentNo)
+        Me.Controls.Add(Me.boxStudentNo)
+        Me.Controls.Add(Me.labelContactNo)
+        Me.Controls.Add(Me.boxContactNo)
+        Me.Controls.Add(Me.labelHomeAdd)
+        Me.Controls.Add(Me.boxHomeAdd)
+        Me.Controls.Add(Me.labelEmail)
+        Me.Controls.Add(Me.boxEmail)
+        Me.Controls.Add(Me.labelCourse)
+        Me.Controls.Add(Me.boxCourse)
+        Me.Controls.Add(Me.labelGivenName)
+        Me.Controls.Add(Me.boxGivenName)
+        Me.Controls.Add(Me.btnEdit)
+        Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.titleLabel)
         Me.Name = "Form1"
         Me.Text = "Student Contact Tracing App"
@@ -305,27 +305,27 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents titleLabel As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label1 As Label
+    Friend WithEvents btnSave As Button
+    Friend WithEvents btnEdit As Button
+    Friend WithEvents boxGivenName As TextBox
+    Friend WithEvents labelGivenName As Label
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents Label9 As Label
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents Label10 As Label
+    Friend WithEvents boxMiddleName As TextBox
+    Friend WithEvents labelMiddleName As Label
+    Friend WithEvents boxLastName As TextBox
+    Friend WithEvents labelLastName As Label
+    Friend WithEvents boxCourse As TextBox
+    Friend WithEvents labelCourse As Label
+    Friend WithEvents boxStudentNo As TextBox
+    Friend WithEvents labelStudentNo As Label
+    Friend WithEvents boxBirthdate As TextBox
+    Friend WithEvents labelBirthdate As Label
+    Friend WithEvents boxEmail As TextBox
+    Friend WithEvents labelEmail As Label
+    Friend WithEvents boxContactNo As TextBox
+    Friend WithEvents labelContactNo As Label
+    Friend WithEvents boxGender As TextBox
+    Friend WithEvents labelGender As Label
+    Friend WithEvents boxHomeAdd As TextBox
+    Friend WithEvents labelHomeAdd As Label
 End Class
